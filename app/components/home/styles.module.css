@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+}
+.left{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    
+}
+.right{
+    width: 35%;
+    background-color: rgb(1, 202, 172);
+    height: 91vh;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 50px;
+
+}
+.med{
+    display: flex;
+    align-items: center;
+}
+.med > img{
+    width: 3rem;
+    height: 3rem;
+}
+.med > span{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+.data > h1{
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+.data > p{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.start > img{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+.start > button{
+    padding: 13px;
+    color: white;
+    background-color: rgb(1, 202, 172);
+    width: 10rem;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.start > span{
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.docter{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    object-fit: cover;
+    width: 38rem;
+    height: 38rem;
+    
+}
