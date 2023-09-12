@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./styles.module.css"
-import doctor from "../../../app/doctor.png"
+import doctor from "@/public/doctor.png"
 import Image from 'next/image'
 const Home = () => {
   return (

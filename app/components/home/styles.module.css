@@ -80,5 +80,6 @@
     object-fit: cover;
     width: 38rem;
     height: 38rem;
+    filter: drop-shadow(5px 5px 10px rgb(12, 12, 12) );
     
 }
